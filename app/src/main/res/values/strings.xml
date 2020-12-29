@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">cse438-assignment2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="add_playlist">+</string>
+    <string name="playlist_name">play_list name</string>
+    <string name="playlist_description">play_list description</string>
+    <string name="playlist_genre">play_list genre</string>
+    <string name="playlist_rating">play_list rating</string>
+    <string name="submit_button">submit</string>
+    <string name="return_button">return</string>
+    <string name="track_name">track name</string>
+    <string name="track_artist">track artist</string>
+    <string name="track_time">track time</string>
+    <string name="search">search</string>
+    <string name="refresh">refresh</string>
+</resources>

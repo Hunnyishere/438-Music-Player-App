@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/track_cover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="TODO" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/track_name"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:text="@string/track_name"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/remove_track_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remove" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/track_artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/track_artist"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/track_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/track_time"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/track_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/playlist_genre"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/track_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/playlist_rating"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
